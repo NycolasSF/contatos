@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Module dependencies.
+ * Módulos necessários
  */
 
 var app = require('../app');
@@ -50,7 +50,7 @@ function normalizePort(val) {
 }
 
 /**
- * Evento validando servidor HTTP em busca de erro.
+ * Evento escutando servidor HTTP em busca de erro.
  */
 
 function onError(error) {
