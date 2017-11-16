@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://nodejs01:1q2w3e4r@mongodb.nodejs.kinghost.net/nodejs01');
+mongoose.connect('mongodb://usuario:senha@host/base');
 var Schema = mongoose.Schema;
 
 var userDataSchema = new Schema({
