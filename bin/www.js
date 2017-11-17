@@ -12,7 +12,7 @@ var http = require('http');
  * Setando porta no Express
  */
 
-var port = normalizePort(process.env.PORT || '21121');
+var port = normalizePort(process.env.PORT || '21000');
 app.set('port', port);
 
 /**
